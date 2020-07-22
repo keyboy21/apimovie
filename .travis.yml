@@ -1,6 +1,6 @@
 language: Node_js
 node_js:
-  nvm install -12
+  - 12
 before_install:
   - npm install
   - export NODE_ENV=production
