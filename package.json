@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "test": "mocha --recursive --exit --timeout 10000"
+    "start": "node ./bin/www",
+    "test": "mocha --recursive --exit --timeout 10000",
+    "box":"nodemon ./bin/www"
+
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
